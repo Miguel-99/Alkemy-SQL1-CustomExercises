@@ -1,5 +1,6 @@
 # Alkemy-SQL1-CustomExercises
 
+## Ejercicio 1
 >Ingrese al sitio web: https://sqliteonline.com/ 
 >
 >Seleccione el editor de SQLite, en el centro podrá ver un editor de SQL. 
@@ -24,3 +25,7 @@
 >    Intente ingresar un registro con la clave primaria repetida y verifique que no funciona.  
 >    Actualice, para todos los cursos, el cupo en 25.  
 >    Elimine el curso Algoritmos.
+
+
+## Resultado ejercicio 1
+![imagen](https://user-images.githubusercontent.com/65373208/140588166-58e456b4-4b69-4296-bd56-823ca60bf433.png)
