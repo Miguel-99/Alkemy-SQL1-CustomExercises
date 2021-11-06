@@ -51,7 +51,7 @@ SELECT * FROM profesor WHERE salario >= 65000;
 ![2](https://user-images.githubusercontent.com/65373208/140593932-8fff1397-a1b9-430d-952b-04043e211a0f.png)
 >3.    Todos los profesores que nacieron en la década del 80.  
 ```
-SELECT * FROM profesor  WHERE fecha_nacimiento BETWEEN "1980-01-01" AND "1989-01-01";
+SELECT * FROM profesor  WHERE fecha_nacimiento BETWEEN "1980-01-01" AND "1989-12-31";
 ```
 ![3](https://user-images.githubusercontent.com/65373208/140593969-a5061b37-aad2-4646-959b-83d64bdd9ad3.png)
 >4.    5 registros.  
@@ -66,7 +66,7 @@ SELECT * FROM profesor WHERE apellido LIKE "P%";
 ![5](https://user-images.githubusercontent.com/65373208/140593985-b009009a-90c8-4178-90a5-07c6ea2b260b.png)
 >6.    Los profesores que nacieron en la década del 80 y tienen un salario mayor a 80000.  
 ```
-SELECT * FROM profesor  WHERE fecha_nacimiento BETWEEN "1980-01-01" AND "1989-01-01" AND salario > 80000;
+SELECT * FROM profesor  WHERE fecha_nacimiento BETWEEN "1980-01-01" AND "1989-12-31" AND salario > 80000;
 ```
 ![6](https://user-images.githubusercontent.com/65373208/140593992-7df8bc3f-08f3-4aef-ab40-85d9d6a86969.png)
 
